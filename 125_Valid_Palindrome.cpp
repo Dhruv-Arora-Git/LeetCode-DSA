@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/valid-palindrome/
+
+// https://leetcode.com/problems/valid-palindrome/discuss/1634090/C%2B%2B-2-Pointer-approach-O(1)-space-O(n)-time-solution
+
 #include <iostream>
 using namespace std;
 
@@ -44,9 +48,9 @@ bool isPalindrome(string s)
 
 int main()
 {
-    string a = ",,,,";
-    // cin >> a;
-    cout << a.empty() << endl;
+    string a;
+    cin >> a;
+    // cout << a.empty() << endl;
     cout << isPalindrome(a) << endl;
     return 0;
 }

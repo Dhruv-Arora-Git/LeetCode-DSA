@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/sqrtx/
+
+// https://leetcode.com/problems/sqrtx/discuss/1650606/Easy-oror-C%2B%2B-oror-Binary-Search-Solution-oror-O(log-n)-tine
+
 #include <iostream>
 using namespace std;
 

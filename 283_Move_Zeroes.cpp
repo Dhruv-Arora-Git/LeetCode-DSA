@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/move-zeroes/
+
+// https://leetcode.com/problems/move-zeroes/discuss/1643135/O(n)-time-solution-in-c%2B%2B-2-pointer-approach
+
 #include <iostream>
 #include <vector>
 
@@ -5,7 +9,6 @@ using namespace std;
 
 void moveZeroes(vector<int> &nums)
 {
-
     if (nums.size() == 1)
         return;
 

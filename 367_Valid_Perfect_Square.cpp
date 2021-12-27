@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/valid-perfect-square/
+
+// https://leetcode.com/problems/valid-perfect-square/discuss/1641266/O(log-n)-100-fast-C%2B%2B-Binary-Search
+
 #include <iostream>
 using namespace std;
 
@@ -14,6 +18,7 @@ bool isPerfectSquare(int num)
     {
         if (mid * mid == num)
             return true;
+
         else if (mid * mid > num)
         {
             end = mid - 1;

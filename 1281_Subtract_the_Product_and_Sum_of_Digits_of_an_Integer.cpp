@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+
+// https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/discuss/1650657/C%2B%2B-Very-Easy-Solution-oror-O(log-n)-oror-Fastest
+
 #include <iostream>
 using namespace std;
 

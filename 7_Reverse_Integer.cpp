@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/reverse-integer/
+
+// https://leetcode.com/problems/reverse-integer/discuss/1650591/C%2B%2B-O(log-n)-very-easy-solution
+
 #include <iostream>
 #include <limits.h>
 using namespace std;

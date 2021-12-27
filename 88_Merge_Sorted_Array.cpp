@@ -1,4 +1,7 @@
-// 88. Merge Sorted Array
+// https://leetcode.com/problems/merge-sorted-array/
+
+// https://leetcode.com/problems/merge-sorted-array/discuss/1650612/2-Pointer-Solution-oror-C%2B%2B-oror-O(m-%2B-n)-runtime-oror-Constant-Space-O(1)
+
 #include <iostream>
 #include <vector>
 using namespace std;

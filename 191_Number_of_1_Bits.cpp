@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/number-of-1-bits/
+
+// https://leetcode.com/problems/number-of-1-bits/discuss/1650623/C%2B%2B-Bit-Manipulation-oror-Easy-oror-fastest
+
 #include <iostream>
 using namespace std;
 
