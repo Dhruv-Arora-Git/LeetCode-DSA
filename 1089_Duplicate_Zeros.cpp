@@ -29,6 +29,11 @@ void duplicateZeros(vector<int> &arr)
 
 int main()
 {
+    vector<int> nums = {1, 0, 2, 3, 0, 4, 5, 0};
+    duplicateZeros(nums);
 
+    for (int i : nums)
+        cout << i << " ";
+    cout << '\n';
     return 0;
 }
