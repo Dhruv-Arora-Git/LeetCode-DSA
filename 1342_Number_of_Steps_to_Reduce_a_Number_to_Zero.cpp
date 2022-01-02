@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
+
+// https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/discuss/1662503/!00-faster-or-C%2B%2B-Solution-or-simple-loop-or-easy-to-understand
+
 #include <iostream>
 using namespace std;
 
