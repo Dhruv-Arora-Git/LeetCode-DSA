@@ -21,11 +21,20 @@ int numberOfSteps(int num)
 
     return count;
 }
+int numberOfStepsRecusrive(int n, int count)
+{
+    if (n == 0)
+        return count;
 
+    if (n & 1)
+        return numberOfStepsRecusrive(n - 1, ++count);
+
+    return numberOfStepsRecusrive(n / 2, ++count);
+}
 int main()
 {
     int num = 14;
 
-    cout << numberOfSteps(num) << '\n';
+    cout << numberOfStepsRecusrive(num, 0) << '\n';
     return 0;
 }
