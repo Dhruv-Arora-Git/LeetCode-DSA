@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
+// https://leetcode.com/problems/letter-combinations-of-a-phone-number/discuss/1778431/Beginner-Friendly-C%2B%2B-Code-or-with-comments
+
 #include <iostream>
 #include <string>
 #include <vector>
