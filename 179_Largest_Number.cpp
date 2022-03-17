@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/largest-number/
+
+// https://leetcode.com/problems/largest-number/discuss/1858616/custom-Sort-comparator-C%2B%2B-solution
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
