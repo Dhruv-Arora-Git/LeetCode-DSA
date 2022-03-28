@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/linked-list-cycle/
+
+// https://leetcode.com/problems/linked-list-cycle/discuss/1890503/Very-Simple-Clean-Code-C%2B%2B-or-O(1)-space-2-Pointer
+
 #include <iostream>
 using namespace std;
 struct ListNode
