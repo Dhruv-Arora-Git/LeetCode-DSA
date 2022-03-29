@@ -2,6 +2,8 @@
 
 // https://leetcode.com/problems/remove-duplicates-from-sorted-list/discuss/1881721/C%2B%2B-simple-2-pointers-solution
 
+// https://leetcode.com/problems/remove-duplicates-from-sorted-list/discuss/1894263/simple-c%2B%2B-ode-with-single-pointer
+
 #include <iostream>
 using namespace std;
 
