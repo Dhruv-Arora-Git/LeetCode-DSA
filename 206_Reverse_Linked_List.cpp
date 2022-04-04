@@ -59,8 +59,41 @@ ListNode *reverseList(ListNode *head)
     // now P == NULL , LL is reversed
 }
 
-int main()
+ListNode *reverseList2(ListNode *head)
 {
 
+    ListNode *prev = NULL, *curr = head;
+
+    while (curr != NULL)
+    {
+        ListNode *nxt = curr->next;
+
+        curr->next = prev;
+        prev = curr;
+
+        curr = nxt;
+    }
+
+    return prev;
+}
+
+int main()
+{
+    // make a linked list with struct ListNode
+    // 1 -> 2 -> 3 -> 4 -> 5 -> NULL
+    ListNode *head = new ListNode(1);
+    head->next = new ListNode(2);
+    head->next->next = new ListNode(3);
+    head->next->next->next = new ListNode(4);
+    head->next->next->next->next = new ListNode(5);
+
+    ListNode *new_head = reverseList2(head);
+    // 5 -> 4 -> 3 -> 2 -> 1 -> NULL
+    while (new_head != NULL)
+    {
+        cout << new_head->val << " -> ";
+        new_head = new_head->next;
+    }
+    cout << "NULL" << '\n';
     return 0;
 }
