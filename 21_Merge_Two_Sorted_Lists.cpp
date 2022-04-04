@@ -72,6 +72,25 @@ ListNode *mergeTwoLists(ListNode *list1, ListNode *list2)
 
 int main()
 {
+    ListNode *head = new ListNode(1);
+    head->next = new ListNode(2);
+    head->next->next = new ListNode(3);
+    head->next->next->next = new ListNode(4);
+    head->next->next->next->next = new ListNode(5);
 
+    ListNode *head2 = new ListNode(1);
+    head2->next = new ListNode(2);
+    head2->next->next = new ListNode(3);
+    head2->next->next->next = new ListNode(4);
+    head2->next->next->next->next = new ListNode(5);
+
+    ListNode *head3 = mergeTwoLists(head, head2);
+
+    while (head3 != NULL)
+    {
+        cout << head3->val << " -> ";
+        head3 = head3->next;
+    }
+    cout << "NULL" << '\n';
     return 0;
 }
