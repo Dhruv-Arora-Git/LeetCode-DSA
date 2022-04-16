@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/maximal-rectangle/
+
+// https://leetcode.com/problems/maximal-rectangle/discuss/1953540/Extension-of-Max-Rectangle-in-Histogram-C%2B%2B-)
+
 #include <iostream>
 #include <stack>
 #include <vector>
