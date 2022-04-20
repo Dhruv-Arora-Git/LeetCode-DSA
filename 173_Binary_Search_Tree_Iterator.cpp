@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/binary-search-tree-iterator/
+
+// https://leetcode.com/problems/binary-search-tree-iterator/discuss/1966535/C%2B%2B-Super-Simple-or-using-a-vector-%3A)-or-Comments-Added
+
 #include <iostream>
 #include <vector>
 
