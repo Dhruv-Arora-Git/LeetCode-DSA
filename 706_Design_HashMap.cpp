@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/design-hashmap/
+
+// https://leetcode.com/problems/design-hashmap/discuss/1973008/C%2B%2B-Using-a-Vector-or-Simple-and-Short-without-complex-Hashing-%3A)
+
 #include <iostream>
 #include <vector>
 
