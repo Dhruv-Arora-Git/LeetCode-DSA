@@ -17,14 +17,15 @@ struct TreeNode
 
 int tilt = 0;
 
-int inorder(TreeNode *root)
+// postorder traversal (left, right, root)
+int dfs(TreeNode *root)
 {
     if (root == NULL)
         return 0;
 
-    int left = inorder(root->left);
+    int left = dfs(root->left);
 
-    int right = inorder(root->right);
+    int right = dfs(root->right);
 
     // calculate tilt for each node
     tilt += abs(right - left);
@@ -35,13 +36,19 @@ int inorder(TreeNode *root)
 
 int findTilt(TreeNode *root)
 {
-    inorder(root);
+    dfs(root);
 
     return tilt;
 }
 
 int main()
 {
+    //     4
+    //    / \
+    //   2   9
+    //  / \   \
+    // 3   5   7
+
     TreeNode *root = new TreeNode(4);
     root->left = new TreeNode(2);
     root->right = new TreeNode(9);
