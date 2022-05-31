@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int calPoints(vector<string> &ops)
+int calPoints(const vector<string> &ops)
 {
     stack<int> stk;
 
@@ -63,6 +63,8 @@ int main()
 {
     vector<string> ops = {"5", "-2", "4", "C", "D", "9", "+", "+"};
 
+    // cout << "Points are:\n";
     cout << calPoints(ops) << "\n";
+
     return 0;
 }
