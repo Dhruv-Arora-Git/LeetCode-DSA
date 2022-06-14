@@ -73,6 +73,11 @@ int sumNumbers2(TreeNode *root)
 
 int main()
 {
+    //     4
+    //    / \
+    //   9   0
+    //  / \
+    // 5   1
     TreeNode *root = new TreeNode(4);
     root->left = new TreeNode(9);
     root->right = new TreeNode(0);
