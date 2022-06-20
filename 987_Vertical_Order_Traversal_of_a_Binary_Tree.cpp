@@ -44,7 +44,6 @@ vector<vector<int>> verticalTraversal(TreeNode *root)
 
     for (auto &it : mp)
     {
-
         sort(it.second.begin(), it.second.end());
 
         vector<int> temp;
@@ -54,7 +53,6 @@ vector<vector<int>> verticalTraversal(TreeNode *root)
 
         ans.push_back(temp);
     }
-
     return ans;
 }
 
@@ -70,11 +68,10 @@ int main()
 
     for (vector<int> &v : ans)
     {
-        cout << "[";
-        for (int i : v)
+        for (int &i : v)
             cout << i << " ";
-        cout << "], ";
+        cout << "\n";
     }
-    cout << "\n";
+
     return 0;
 }
