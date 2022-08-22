@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/shortest-path-in-binary-matrix/
 
-// https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/2401703/C%2B%2B-BFS-oror-Readable-Code-oror-Explained-with-Comments
+// https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/2462634/C%2B%2B-Self-Explainatory-Code-or-Comments-added
 
 #include <iostream>
 #include <vector>
