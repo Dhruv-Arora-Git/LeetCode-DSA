@@ -4,6 +4,7 @@
 
 #include <iostream>
 using namespace std;
+
 struct ListNode
 {
     int val;
@@ -17,16 +18,10 @@ ListNode *middleNode(ListNode *head)
 {
     ListNode *slow = head, *fast = head;
 
-    while (fast != NULL)
+    while (fast != NULL && fast->next != NULL)
     {
-
-        fast = fast->next;
-
-        if (fast != NULL)
-        {
-            fast = fast->next;
-            slow = slow->next;
-        }
+        fast = fast->next->next;
+        slow = slow->next;
     }
 
     return slow;
@@ -34,6 +29,7 @@ ListNode *middleNode(ListNode *head)
 
 int main()
 {
+    // 1 -> 2 -> 3 -> 4 -> 5 -> 6
     ListNode *head = new ListNode(1);
     head->next = new ListNode(2);
     head->next->next = new ListNode(3);
